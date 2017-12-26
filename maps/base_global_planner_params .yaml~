@@ -1,0 +1,5 @@
+GlobalPlanner:
+ use_dijkstra: true 
+ default_tolerance: 0.1
+ visualize_potential: true
+ global_frame_id: world

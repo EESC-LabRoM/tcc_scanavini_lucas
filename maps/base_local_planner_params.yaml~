@@ -1,0 +1,32 @@
+TrajectoryPlannerROS:
+  max_vel_x: 0.4
+  min_vel_x: -0.4
+  max_vel_theta: 0.4
+  min_vel_theta: -0.4
+  min_in_place_vel_theta: 0
+  
+
+  acc_lim_theta: 0.3
+  acc_lim_x: 0.4
+  acc_lim_y: 0.4
+
+  meter_scoring: false
+  pdist_scale: 0.6
+  gdist_scale: 1.5 #0.8
+  occdist_scale: 0.5
+  heading_scoring: false
+
+  holonomic_robot: false
+  publish_cost_grid_pc: true
+
+  global_frame_id: world
+
+  oscillation_reset_dist: 0.05 #0.05
+  sim_time: 7 #3
+  heading_lookahead: 0.3 
+
+yaw_goal_tolerance: 2
+xy_goal_tolerance: 0.35
+latch_xy_goal_tolerance: true 
+
+dwa: false
